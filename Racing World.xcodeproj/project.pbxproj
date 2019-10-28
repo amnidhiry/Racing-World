@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FAE5AE9236754D1003A559F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE5AE8236754D1003A559F /* AppDelegate.swift */; };
+		7FAE5AEB236754D1003A559F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE5AEA236754D1003A559F /* GameScene.sks */; };
+		7FAE5AED236754D1003A559F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE5AEC236754D1003A559F /* Actions.sks */; };
+		7FAE5AEF236754D1003A559F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE5AEE236754D1003A559F /* GameScene.swift */; };
+		7FAE5AF1236754D1003A559F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE5AF0236754D1003A559F /* GameViewController.swift */; };
+		7FAE5AF4236754D1003A559F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE5AF2236754D1003A559F /* Main.storyboard */; };
+		7FAE5AF6236754D6003A559F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE5AF5236754D6003A559F /* Assets.xcassets */; };
+		7FAE5AF9236754D6003A559F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE5AF7236754D6003A559F /* LaunchScreen.storyboard */; };
+		7FAE5B04236754D6003A559F /* Racing_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE5B03236754D6003A559F /* Racing_WorldTests.swift */; };
+		7FAE5B0F236754D6003A559F /* Racing_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE5B0E236754D6003A559F /* Racing_WorldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FAE5B00236754D6003A559F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FAE5ADD236754D1003A559F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FAE5AE4236754D1003A559F;
+			remoteInfo = "Racing World";
+		};
+		7FAE5B0B236754D6003A559F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FAE5ADD236754D1003A559F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FAE5AE4236754D1003A559F;
+			remoteInfo = "Racing World";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FAE5AE5236754D1003A559F /* Racing World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Racing World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAE5AE8236754D1003A559F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FAE5AEA236754D1003A559F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7FAE5AEC236754D1003A559F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		7FAE5AEE236754D1003A559F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7FAE5AF0236754D1003A559F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7FAE5AF3236754D1003A559F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FAE5AF5236754D6003A559F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FAE5AF8236754D6003A559F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FAE5AFA236754D6003A559F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FAE5AFF236754D6003A559F /* Racing WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Racing WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAE5B03236754D6003A559F /* Racing_WorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racing_WorldTests.swift; sourceTree = "<group>"; };
+		7FAE5B05236754D6003A559F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FAE5B0A236754D6003A559F /* Racing WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Racing WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAE5B0E236754D6003A559F /* Racing_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racing_WorldUITests.swift; sourceTree = "<group>"; };
+		7FAE5B10236754D6003A559F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FAE5AE2236754D1003A559F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE5AFC236754D6003A559F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE5B07236754D6003A559F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FAE5ADC236754D0003A559F = {
+			isa = PBXGroup;
+			children = (
+				7FAE5AE7236754D1003A559F /* Racing World */,
+				7FAE5B02236754D6003A559F /* Racing WorldTests */,
+				7FAE5B0D236754D6003A559F /* Racing WorldUITests */,
+				7FAE5AE6236754D1003A559F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FAE5AE6236754D1003A559F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE5AE5236754D1003A559F /* Racing World.app */,
+				7FAE5AFF236754D6003A559F /* Racing WorldTests.xctest */,
+				7FAE5B0A236754D6003A559F /* Racing WorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FAE5AE7236754D1003A559F /* Racing World */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE5AE8236754D1003A559F /* AppDelegate.swift */,
+				7FAE5AEA236754D1003A559F /* GameScene.sks */,
+				7FAE5AEC236754D1003A559F /* Actions.sks */,
+				7FAE5AEE236754D1003A559F /* GameScene.swift */,
+				7FAE5AF0236754D1003A559F /* GameViewController.swift */,
+				7FAE5AF2236754D1003A559F /* Main.storyboard */,
+				7FAE5AF5236754D6003A559F /* Assets.xcassets */,
+				7FAE5AF7236754D6003A559F /* LaunchScreen.storyboard */,
+				7FAE5AFA236754D6003A559F /* Info.plist */,
+			);
+			path = "Racing World";
+			sourceTree = "<group>";
+		};
+		7FAE5B02236754D6003A559F /* Racing WorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE5B03236754D6003A559F /* Racing_WorldTests.swift */,
+				7FAE5B05236754D6003A559F /* Info.plist */,
+			);
+			path = "Racing WorldTests";
+			sourceTree = "<group>";
+		};
+		7FAE5B0D236754D6003A559F /* Racing WorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE5B0E236754D6003A559F /* Racing_WorldUITests.swift */,
+				7FAE5B10236754D6003A559F /* Info.plist */,
+			);
+			path = "Racing WorldUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FAE5AE4236754D1003A559F /* Racing World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAE5B13236754D6003A559F /* Build configuration list for PBXNativeTarget "Racing World" */;
+			buildPhases = (
+				7FAE5AE1236754D1003A559F /* Sources */,
+				7FAE5AE2236754D1003A559F /* Frameworks */,
+				7FAE5AE3236754D1003A559F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Racing World";
+			productName = "Racing World";
+			productReference = 7FAE5AE5236754D1003A559F /* Racing World.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FAE5AFE236754D6003A559F /* Racing WorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAE5B16236754D6003A559F /* Build configuration list for PBXNativeTarget "Racing WorldTests" */;
+			buildPhases = (
+				7FAE5AFB236754D6003A559F /* Sources */,
+				7FAE5AFC236754D6003A559F /* Frameworks */,
+				7FAE5AFD236754D6003A559F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAE5B01236754D6003A559F /* PBXTargetDependency */,
+			);
+			name = "Racing WorldTests";
+			productName = "Racing WorldTests";
+			productReference = 7FAE5AFF236754D6003A559F /* Racing WorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FAE5B09236754D6003A559F /* Racing WorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAE5B19236754D6003A559F /* Build configuration list for PBXNativeTarget "Racing WorldUITests" */;
+			buildPhases = (
+				7FAE5B06236754D6003A559F /* Sources */,
+				7FAE5B07236754D6003A559F /* Frameworks */,
+				7FAE5B08236754D6003A559F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAE5B0C236754D6003A559F /* PBXTargetDependency */,
+			);
+			name = "Racing WorldUITests";
+			productName = "Racing WorldUITests";
+			productReference = 7FAE5B0A236754D6003A559F /* Racing WorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FAE5ADD236754D1003A559F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Nidhiry Industries";
+				TargetAttributes = {
+					7FAE5AE4236754D1003A559F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					7FAE5AFE236754D6003A559F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 7FAE5AE4236754D1003A559F;
+					};
+					7FAE5B09236754D6003A559F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 7FAE5AE4236754D1003A559F;
+					};
+				};
+			};
+			buildConfigurationList = 7FAE5AE0236754D1003A559F /* Build configuration list for PBXProject "Racing World" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FAE5ADC236754D0003A559F;
+			productRefGroup = 7FAE5AE6236754D1003A559F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FAE5AE4236754D1003A559F /* Racing World */,
+				7FAE5AFE236754D6003A559F /* Racing WorldTests */,
+				7FAE5B09236754D6003A559F /* Racing WorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FAE5AE3236754D1003A559F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE5AF4236754D1003A559F /* Main.storyboard in Resources */,
+				7FAE5AEB236754D1003A559F /* GameScene.sks in Resources */,
+				7FAE5AF6236754D6003A559F /* Assets.xcassets in Resources */,
+				7FAE5AF9236754D6003A559F /* LaunchScreen.storyboard in Resources */,
+				7FAE5AED236754D1003A559F /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE5AFD236754D6003A559F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE5B08236754D6003A559F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FAE5AE1236754D1003A559F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE5AEF236754D1003A559F /* GameScene.swift in Sources */,
+				7FAE5AF1236754D1003A559F /* GameViewController.swift in Sources */,
+				7FAE5AE9236754D1003A559F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE5AFB236754D6003A559F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE5B04236754D6003A559F /* Racing_WorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE5B06236754D6003A559F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE5B0F236754D6003A559F /* Racing_WorldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FAE5B01236754D6003A559F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FAE5AE4236754D1003A559F /* Racing World */;
+			targetProxy = 7FAE5B00236754D6003A559F /* PBXContainerItemProxy */;
+		};
+		7FAE5B0C236754D6003A559F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FAE5AE4236754D1003A559F /* Racing World */;
+			targetProxy = 7FAE5B0B236754D6003A559F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FAE5AF2236754D1003A559F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAE5AF3236754D1003A559F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FAE5AF7236754D6003A559F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAE5AF8236754D6003A559F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FAE5B11236754D6003A559F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FAE5B12236754D6003A559F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FAE5B14236754D6003A559F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47WRBKRQ35;
+				INFOPLIST_FILE = "Racing World/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nidhiry-Industries.Racing-World";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FAE5B15236754D6003A559F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47WRBKRQ35;
+				INFOPLIST_FILE = "Racing World/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nidhiry-Industries.Racing-World";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FAE5B17236754D6003A559F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47WRBKRQ35;
+				INFOPLIST_FILE = "Racing WorldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nidhiry-Industries.Racing-WorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Racing World.app/Racing World";
+			};
+			name = Debug;
+		};
+		7FAE5B18236754D6003A559F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47WRBKRQ35;
+				INFOPLIST_FILE = "Racing WorldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nidhiry-Industries.Racing-WorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Racing World.app/Racing World";
+			};
+			name = Release;
+		};
+		7FAE5B1A236754D6003A559F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47WRBKRQ35;
+				INFOPLIST_FILE = "Racing WorldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nidhiry-Industries.Racing-WorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Racing World";
+			};
+			name = Debug;
+		};
+		7FAE5B1B236754D6003A559F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47WRBKRQ35;
+				INFOPLIST_FILE = "Racing WorldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nidhiry-Industries.Racing-WorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Racing World";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FAE5AE0236754D1003A559F /* Build configuration list for PBXProject "Racing World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAE5B11236754D6003A559F /* Debug */,
+				7FAE5B12236754D6003A559F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAE5B13236754D6003A559F /* Build configuration list for PBXNativeTarget "Racing World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAE5B14236754D6003A559F /* Debug */,
+				7FAE5B15236754D6003A559F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAE5B16236754D6003A559F /* Build configuration list for PBXNativeTarget "Racing WorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAE5B17236754D6003A559F /* Debug */,
+				7FAE5B18236754D6003A559F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAE5B19236754D6003A559F /* Build configuration list for PBXNativeTarget "Racing WorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAE5B1A236754D6003A559F /* Debug */,
+				7FAE5B1B236754D6003A559F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FAE5ADD236754D1003A559F /* Project object */;
+}
